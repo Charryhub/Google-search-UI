@@ -1,0 +1,77 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.full-div {
+  height: 100%;
+  width: 100%;
+}
+.center {
+  height: 100vh;
+  position: relative;
+}
+.center p {
+  font-size: 75px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.g {
+  color: #4081ec;
+}
+.o-one {
+  color: #e24134;
+}
+.o-two {
+  color: #f2b707;
+}
+.g-two {
+  color: #4081ec;
+}
+.l {
+  color: #33a452;
+}
+.e {
+  color: #e24134;
+}
+.search {
+  font-size: 14px;
+  width: 40%;
+  height: 5%;
+  padding-left: 1%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 23px;
+  border-style: solid;
+
+  border-width: 1px;
+
+  border-color: rgb(187, 182, 182);
+}
+
+.google-search {
+  height: 35px;
+  width: 120px;
+  margin-right: 15px;
+  border: none;
+  background-color: rgb(243, 242, 242);
+  cursor: pointer;
+}
+.google-search:hover {
+  opacity: 0.7;
+}
+.buttons {
+  display: inline-flex;
+  margin: 0;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
